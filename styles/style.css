@@ -15,19 +15,21 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
+
 .image {
     width: 100%;
 }
+
+
 
 .button {
     background-color: var(--button);
     padding: 1em;
     border: black solid 2px;
     border-radius: 1.5em;
-}
-
-li {
-    list-style: none;
 }
 
 @media (max-width: 670px) {
@@ -39,4 +41,27 @@ li {
         gap: 0.5em;
         text-align: center;
     }
+
+}
+
+@media (min-width: 670px) {
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        max-height: calc(100vh - 2em); ;
+    }
+
+    .options {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        margin-left: 1em;
+    }
+
+    img {
+        display: block;
+        height: 100%;
+    }
+    
 }
