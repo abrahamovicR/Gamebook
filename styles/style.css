@@ -10,8 +10,9 @@ body {
     margin: 1em;
 }
 
-header {
-
+a {
+    color: var(--text);
+    text-decoration: none;
 }
 
 .image {
@@ -20,8 +21,6 @@ header {
 
 .button {
     background-color: var(--button);
-    color: var(--text);
-    text-decoration: none;
     padding: 1em;
     border: black solid 2px;
     border-radius: 1.5em;
