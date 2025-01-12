@@ -1,0 +1,42 @@
+:root {
+    --background: #264653; 
+    --button: #2a9d8f;
+    --text: #ffffff;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+    margin: 1em;
+}
+
+header {
+
+}
+
+.image {
+    width: 100%;
+}
+
+.button {
+    background-color: var(--button);
+    color: var(--text);
+    text-decoration: none;
+    padding: 1.5em;
+    border: black solid 2px;
+    border-radius: 1.5em;
+}
+
+li {
+    list-style: none;
+}
+
+@media (max-width: 670px) {
+
+    .options {
+        display: flex;
+        margin-top: 1em;
+        flex-direction: column;
+        gap: 1em;
+    }
+}
