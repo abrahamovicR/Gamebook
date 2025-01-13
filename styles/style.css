@@ -57,6 +57,10 @@ li {
         order: 2;
     }
 
+    .button {
+        min-width: 10em;
+    }
+
     img {
         max-width: 100%;
     }
